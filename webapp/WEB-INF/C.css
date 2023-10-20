@@ -1,0 +1,41 @@
+@charset "ISO-8859-1";
+ body {
+    background-color: lightseagreen;
+    background-size: 1383px 750px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.2;    
+}
+.header{
+	width: 100%;
+}
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+.navbar a {
+  float: right;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 17%; 
+  text-align: center; 
+}
+.navbar a:hover {
+  background-color: #000;
+}
+.navbar a.active {
+  background-color: #04AA6D;
+}
+
+.form {
+	text-align: center;
+	font-family: "Open Sans", sans-serif;
+    line-height: 1.2; 
+}
+.login {
+	text-align: center;
+	font-family: "Open Sans", sans-serif;
+    line-height: 1.2; 
+}
